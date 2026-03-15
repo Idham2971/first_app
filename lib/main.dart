@@ -21,6 +21,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text('Home')),
       body: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(width: 100, height: 100, color: Colors.red),
           Container(width: 100, height: 100, color: Colors.green),
