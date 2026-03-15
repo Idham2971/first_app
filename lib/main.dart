@@ -22,7 +22,8 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(title: Text('Home')),
       body: Row(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: [
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
           Container(width: 100, height: 100, color: Colors.red),
           Container(width: 100, height: 50, color: Colors.green),
           Container(width: 100, height: 80, color: Colors.blue),
